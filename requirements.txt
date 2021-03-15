@@ -64,7 +64,6 @@ parso==0.7.0
 passlib==1.7.2
 patsy==0.5.1
 pickleshare==0.7.5
-PIL==1.1.7
 Pillow==6.2.1
 pillowcase==2.0.0
 prometheus-client==0.8.0
