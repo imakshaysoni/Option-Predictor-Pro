@@ -28,7 +28,7 @@ def predict():
         if(Option_Type=='CE'):
                 Option_Type=0
         else:
-            Option_Type=0
+            Option_Type=1
         prediction=model.predict([[Option_Type,Strike_Price,Prev_BN_CP,BankNifty_OP,Change_In_BN,Prev_Close,dist_frm_expiry]])
         output=round(prediction[0],2)
         print(output)
