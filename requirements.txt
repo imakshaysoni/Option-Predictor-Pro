@@ -26,7 +26,6 @@ et-xmlfile==1.0.1
 Flask==1.1.1
 Flask-Images==3.0.2
 Flask-MySQLdb==0.2.0
-gunicorn
 idna==2.10
 imbalanced-learn==0.7.0
 imblearn==0.0
