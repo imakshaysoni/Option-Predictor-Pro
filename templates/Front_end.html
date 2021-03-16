@@ -192,17 +192,18 @@
         </div>
 
         <div class="option_details">
-            <select name="Option_Type">
-              <option value="">Option Type</option>
-              <option value="CE">Call</option>
-              <option value="PE">PUT</option>
-            </select>
-              <input type="number" name="Strike_Price" placeholder="Stirke Price" />
+              
               <input type="number" name="Prev_BN_CP" placeholder="Previous Bank Nifty Closing Price" />
               <input type="number" name="BankNifty_OP" placeholder="Bank Nifty Opening Price" />
               <input type="number" name="Change_In_BN" placeholder="Change In Bank Nifty(Point Wise)" />
+              <input type="number" name="dist_frm_expiry" placeholder="Days to finish the contract" />
+              <input type="number" name="Strike_Price" placeholder="Stirke Price" />
               <input type="number" name="Prev_Close" placeholder="Previous Option Closing Price" />
-          <input type="number" name="dist_frm_expiry" placeholder="Days to finish the contract" />
+              <select name="Option_Type">
+                  <option value="">Option Type</option>
+                  <option value="CE">Call</option>
+                  <option value="PE">PUT</option>
+              </select>
           </div>
         <div class="btn-block">
           <button type="submit" href="/">SEND</button>
