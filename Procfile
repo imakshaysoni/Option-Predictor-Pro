@@ -1,1 +1,1 @@
-web: python app.py runserver 0.0.0.0:5000
+web: gunicorn -t 150 -c gunicorn_config.py main:app --bind 0.0.0.0:${PORT}
