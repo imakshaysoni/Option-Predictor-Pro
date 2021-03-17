@@ -5,3 +5,6 @@ Source Data: Source of Data to train model is NSE India Website, Data is directl
 Actual Real data is used to train the model.
 Purpose: It helps in people who trade Index Derivative, Like BankNifty & Nifty, it will help them to get the opening price of derivative based on previous data.
 Developer: Akshay Soni
+
+
+Please click on a link present in left side inside the Enviroment Deployment and Please give *.
