@@ -60,4 +60,4 @@ Open your web browser and navigate to `http://localhost:5000` (or the specified 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Feedback
-Your feedback is greatly appreciated. If you encounter any issues or have suggestions for improvement, please [submit an issue](https://github.com/your-repo/issues).
+Your feedback is greatly appreciated. If you encounter any issues or have suggestions for improvement, please [submit an issue](https://github.com/imakshaysoni/Option-Predictor-Pro/issues).
