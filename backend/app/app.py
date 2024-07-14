@@ -1,1 +1,1 @@
-from fastapi import FastAPIfrom fastapi import APIRouterimport uvicornfrom api.api import appimport loggingfrom router.router import router_instanceif __name__ == "__main__":    logging.info("Uvicorn server execution started.")    uvicorn.run(app, host="0.0.0.0", port=8000)
+from fastapi import FastAPIfrom fastapi import APIRouterimport uvicornfrom api.api import appimport loggingfrom router.router import router_instanceif __name__ == "__main__":    logging.info("Uvicorn server execution started.")    uvicorn.run(app)
