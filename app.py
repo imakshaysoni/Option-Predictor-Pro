@@ -48,7 +48,6 @@ def isValid(data):
 
 
 def main():
-    st.set_page_config(page_title="Option Predictor Pro")
     st.header("Option Predictor Pro", divider="grey")
     description = """Option Predictor Pro forecasts striker put and call option 
     opening prices based on premarket data, aiding in strategic trading decisions.
