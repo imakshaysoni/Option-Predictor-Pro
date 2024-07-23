@@ -1,5 +1,10 @@
 # Use the official Python image from the Docker Hub
-FROM python:3.10
+FROM python:3.12-bullseye
+
+ Set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+ENV PYDEVD_DISABLE_FILE_VALIDATION=1
 
 # Set the working directory in the container
 WORKDIR /app
